@@ -1,5 +1,10 @@
+# Installed dependancies.
 node_modules/
 
+
+# Private environment configuration variables.
 .env
 
+
+# One should compile the code locally to build 'dist' directory.
 dist/

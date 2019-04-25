@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "This project is a prototype to develop a leaderboard system for a large distributed game network",
   "scripts": {
+    "build": "tsc",
     "start": "node dist/server/index.js",
     "client": "node dist/client/index.js"
   },
