@@ -1,0 +1,21 @@
+{
+  "name": "distributedgameserver",
+  "version": "1.0.0",
+  "description": "This project is a prototype to develop a leaderboard system for a large distributed game network",
+  "scripts": {
+    "start": "node dist/server/index.js",
+    "client": "node dist/client/index.js"
+  },
+  "author": "Bradley Turner",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.17.0",
+    "@types/express": "^4.16.1"
+  }
+}
